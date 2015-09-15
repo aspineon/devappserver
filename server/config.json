@@ -1,0 +1,21 @@
+{
+  "port": 8888,
+  "mockDir":"../mocks/",
+  "staticDir": "static",
+  "apiRoute": "/api/*",
+  "apiAddress": "http://localhost:8080",
+  "logRequests": true,
+  "api": [
+    ""
+  ],
+  "replace": [
+    {
+      "pattern": "/api/v1/",
+      "replace": ""
+    },
+    {
+      "pattern": "[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}",
+      "replace": "uuid"
+    }
+  ]
+}

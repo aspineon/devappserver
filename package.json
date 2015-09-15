@@ -1,0 +1,32 @@
+{
+  "name": "DevAppServer",
+  "version": "0.0.1",
+  "description": "Simple Node.js based development application server with some tricks up it's sleeve",
+  "license": "MIT",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/nielsutrecht/devappserver.git"
+  },
+  "main": "server/app.js",
+  "private": false,
+  "author": {
+    "name": "Niels Dommerholt",
+    "email": "nielsutrecht@gmail.com"
+  },
+  "engines": {
+    "node": "~4.0.0",
+    "npm": "~2.14.2"
+  },
+  "scripts": {
+    "start": "node server/app.js"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "express": "^4.13.0",
+    "express-http-proxy": "^0.6.0",
+    "gulp": "^3.9.0",
+    "gulp-load-plugins": "^1.0.0-rc.1",
+    "gulp-live-server": "0.0.20"
+  }
+}
